@@ -59,9 +59,8 @@ KL University, Vijayawada, India
 
 #### **Links:**
 - **Streamlit App:** <a href="https://airqualityapp-czxh5jumzvuy2cn5obtcag.streamlit.app/" target="_blank">Air Quality Prediction</a>
-<!-- - [Air Quality Prediction](https://airqualityapp-czxh5jumzvuy2cn5obtcag.streamlit.app/) -->
-- **DagsHub:** [Experiments](https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction/experiments)
-- **DockerHub:** [Docker Image](https://hub.docker.com/repository/docker/saket027/airquality_app/general)
+- **DagsHub:** <a href="https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction/experiments" target="_blank">Experiments</a>
+- **DockerHub:** <a href="https://hub.docker.com/repository/docker/saket027/airquality_app/general" target="_blank">Docker Image</a>
 - **Final Deployed Model:** GradientBoostingClassifier
 
 ---
