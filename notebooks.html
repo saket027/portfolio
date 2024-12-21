@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>AirQuality Prediction &#8212; My sample book</title>
+    <title>Notebooks &#8212; My sample book</title>
   
   
   
@@ -63,7 +63,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'notebooks';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Saket Medhalavalasa" href="intro.html" />
+    <link rel="prev" title="Summary" href="summary.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
@@ -168,7 +168,9 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">AirQuality Prediction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Summary</a></li>
+
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Notebooks</a></li>
 </ul>
 
     </div>
@@ -349,7 +351,7 @@
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>AirQuality Prediction</h1>
+    <h1>Notebooks</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -363,9 +365,9 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="airquality-prediction">
-<h1>AirQuality Prediction<a class="headerlink" href="#airquality-prediction" title="Link to this heading">#</a></h1>
-<p>========================</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="notebooks">
+<h1>Notebooks<a class="headerlink" href="#notebooks" title="Link to this heading">#</a></h1>
+<p>This section contains the the code for AirQuality Prediction.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">csv</span>
@@ -779,124 +781,6 @@ Name: proportion, dtype: float64
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: ydata-profiling in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (4.12.1)
-Requirement already satisfied: scipy&lt;1.14,&gt;=1.4.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (1.13.1)
-Requirement already satisfied: pandas!=1.4.0,&lt;3,&gt;1.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (2.2.3)
-Requirement already satisfied: matplotlib&lt;3.10,&gt;=3.5 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (3.9.2)
-Requirement already satisfied: pydantic&gt;=2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (2.10.4)
-Requirement already satisfied: PyYAML&lt;6.1,&gt;=5.0.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (6.0.2)
-Requirement already satisfied: jinja2&lt;3.2,&gt;=2.11.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (3.1.4)
-Requirement already satisfied: visions&lt;0.7.7,&gt;=0.7.5 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from visions[type_image_path]&lt;0.7.7,&gt;=0.7.5-&gt;ydata-profiling) (0.7.6)
-Requirement already satisfied: numpy&lt;2.2,&gt;=1.16.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (2.0.2)
-Requirement already satisfied: htmlmin==0.1.12 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (0.1.12)
-Requirement already satisfied: phik&lt;0.13,&gt;=0.11.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (0.12.4)
-Requirement already satisfied: requests&lt;3,&gt;=2.24.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (2.32.3)
-Requirement already satisfied: tqdm&lt;5,&gt;=4.48.2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (4.67.1)
-Requirement already satisfied: seaborn&lt;0.14,&gt;=0.10.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (0.13.2)
-Requirement already satisfied: multimethod&lt;2,&gt;=1.4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (1.12)
-Requirement already satisfied: statsmodels&lt;1,&gt;=0.13.2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (0.14.4)
-Requirement already satisfied: typeguard&lt;5,&gt;=3 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (4.4.1)
-Requirement already satisfied: imagehash==4.3.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (4.3.1)
-Requirement already satisfied: wordcloud&gt;=1.9.3 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (1.9.4)
-Requirement already satisfied: dacite&gt;=1.8 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (1.8.1)
-Requirement already satisfied: numba&lt;1,&gt;=0.56.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ydata-profiling) (0.60.0)
-Requirement already satisfied: PyWavelets in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from imagehash==4.3.1-&gt;ydata-profiling) (1.8.0)
-Requirement already satisfied: pillow in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from imagehash==4.3.1-&gt;ydata-profiling) (10.4.0)
-Requirement already satisfied: MarkupSafe&gt;=2.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from jinja2&lt;3.2,&gt;=2.11.1-&gt;ydata-profiling) (2.1.5)
-Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;3.10,&gt;=3.5-&gt;ydata-profiling) (1.3.0)
-Requirement already satisfied: cycler&gt;=0.10 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;3.10,&gt;=3.5-&gt;ydata-profiling) (0.12.1)
-Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;3.10,&gt;=3.5-&gt;ydata-profiling) (4.54.1)
-Requirement already satisfied: kiwisolver&gt;=1.3.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;3.10,&gt;=3.5-&gt;ydata-profiling) (1.4.7)
-Requirement already satisfied: packaging&gt;=20.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;3.10,&gt;=3.5-&gt;ydata-profiling) (24.1)
-Requirement already satisfied: pyparsing&gt;=2.3.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;3.10,&gt;=3.5-&gt;ydata-profiling) (3.1.4)
-Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;3.10,&gt;=3.5-&gt;ydata-profiling) (2.9.0.post0)
-Requirement already satisfied: llvmlite&lt;0.44,&gt;=0.43.0dev0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from numba&lt;1,&gt;=0.56.0-&gt;ydata-profiling) (0.43.0)
-Requirement already satisfied: pytz&gt;=2020.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pandas!=1.4.0,&lt;3,&gt;1.1-&gt;ydata-profiling) (2024.2)
-Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pandas!=1.4.0,&lt;3,&gt;1.1-&gt;ydata-profiling) (2024.2)
-Requirement already satisfied: joblib&gt;=0.14.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from phik&lt;0.13,&gt;=0.11.1-&gt;ydata-profiling) (1.4.2)
-Requirement already satisfied: annotated-types&gt;=0.6.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pydantic&gt;=2-&gt;ydata-profiling) (0.7.0)
-Requirement already satisfied: pydantic-core==2.27.2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pydantic&gt;=2-&gt;ydata-profiling) (2.27.2)
-Requirement already satisfied: typing-extensions&gt;=4.12.2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pydantic&gt;=2-&gt;ydata-profiling) (4.12.2)
-Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from requests&lt;3,&gt;=2.24.0-&gt;ydata-profiling) (3.3.2)
-Requirement already satisfied: idna&lt;4,&gt;=2.5 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from requests&lt;3,&gt;=2.24.0-&gt;ydata-profiling) (3.8)
-Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from requests&lt;3,&gt;=2.24.0-&gt;ydata-profiling) (2.2.2)
-Requirement already satisfied: certifi&gt;=2017.4.17 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from requests&lt;3,&gt;=2.24.0-&gt;ydata-profiling) (2024.8.30)
-Requirement already satisfied: patsy&gt;=0.5.6 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from statsmodels&lt;1,&gt;=0.13.2-&gt;ydata-profiling) (1.0.1)
-Requirement already satisfied: colorama in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from tqdm&lt;5,&gt;=4.48.2-&gt;ydata-profiling) (0.4.6)
-Requirement already satisfied: attrs&gt;=19.3.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from visions&lt;0.7.7,&gt;=0.7.5-&gt;visions[type_image_path]&lt;0.7.7,&gt;=0.7.5-&gt;ydata-profiling) (24.2.0)
-Requirement already satisfied: networkx&gt;=2.4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from visions&lt;0.7.7,&gt;=0.7.5-&gt;visions[type_image_path]&lt;0.7.7,&gt;=0.7.5-&gt;ydata-profiling) (3.4.2)
-Requirement already satisfied: six&gt;=1.5 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib&lt;3.10,&gt;=3.5-&gt;ydata-profiling) (1.16.0)
-Requirement already satisfied: matplotlib in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (3.9.2)
-Requirement already satisfied: seaborn in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (0.13.2)
-Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib) (1.3.0)
-Requirement already satisfied: cycler&gt;=0.10 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib) (0.12.1)
-Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib) (4.54.1)
-Requirement already satisfied: kiwisolver&gt;=1.3.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib) (1.4.7)
-Requirement already satisfied: numpy&gt;=1.23 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib) (2.0.2)
-Requirement already satisfied: packaging&gt;=20.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib) (24.1)
-Requirement already satisfied: pillow&gt;=8 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib) (10.4.0)
-Requirement already satisfied: pyparsing&gt;=2.3.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib) (3.1.4)
-Requirement already satisfied: python-dateutil&gt;=2.7 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib) (2.9.0.post0)
-Requirement already satisfied: pandas&gt;=1.2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from seaborn) (2.2.3)
-Requirement already satisfied: pytz&gt;=2020.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.2)
-Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pandas&gt;=1.2-&gt;seaborn) (2024.2)
-Requirement already satisfied: six&gt;=1.5 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from python-dateutil&gt;=2.7-&gt;matplotlib) (1.16.0)
-Requirement already satisfied: pandas in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (2.2.3)
-Requirement already satisfied: numpy&gt;=1.26.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pandas) (2.0.2)
-Requirement already satisfied: python-dateutil&gt;=2.8.2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pandas) (2.9.0.post0)
-Requirement already satisfied: pytz&gt;=2020.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pandas) (2024.2)
-Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pandas) (2024.2)
-Requirement already satisfied: six&gt;=1.5 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas) (1.16.0)
-Requirement already satisfied: numpy in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (2.0.2)
-Requirement already satisfied: ipywidgets in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (8.1.5)
-Requirement already satisfied: comm&gt;=0.1.3 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipywidgets) (0.2.2)
-Requirement already satisfied: ipython&gt;=6.1.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipywidgets) (8.27.0)
-Requirement already satisfied: traitlets&gt;=4.3.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipywidgets) (5.14.3)
-Requirement already satisfied: widgetsnbextension~=4.0.12 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipywidgets) (4.0.13)
-Requirement already satisfied: jupyterlab-widgets~=3.0.12 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipywidgets) (3.0.13)
-Requirement already satisfied: decorator in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets) (5.1.1)
-Requirement already satisfied: jedi&gt;=0.16 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets) (0.19.1)
-Requirement already satisfied: matplotlib-inline in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets) (0.1.7)
-Requirement already satisfied: prompt-toolkit&lt;3.1.0,&gt;=3.0.41 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets) (3.0.47)
-Requirement already satisfied: pygments&gt;=2.4.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets) (2.18.0)
-Requirement already satisfied: stack-data in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets) (0.6.3)
-Requirement already satisfied: colorama in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from ipython&gt;=6.1.0-&gt;ipywidgets) (0.4.6)
-Requirement already satisfied: parso&lt;0.9.0,&gt;=0.8.3 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from jedi&gt;=0.16-&gt;ipython&gt;=6.1.0-&gt;ipywidgets) (0.8.4)
-Requirement already satisfied: wcwidth in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from prompt-toolkit&lt;3.1.0,&gt;=3.0.41-&gt;ipython&gt;=6.1.0-&gt;ipywidgets) (0.2.13)
-Requirement already satisfied: executing&gt;=1.2.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from stack-data-&gt;ipython&gt;=6.1.0-&gt;ipywidgets) (2.1.0)
-Requirement already satisfied: asttokens&gt;=2.1.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from stack-data-&gt;ipython&gt;=6.1.0-&gt;ipywidgets) (2.4.1)
-Requirement already satisfied: pure-eval in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from stack-data-&gt;ipython&gt;=6.1.0-&gt;ipywidgets) (0.2.3)
-Requirement already satisfied: six&gt;=1.12.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from asttokens&gt;=2.1.0-&gt;stack-data-&gt;ipython&gt;=6.1.0-&gt;ipywidgets) (1.16.0)
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>usage: jupyter [-h] [--version] [--config-dir] [--data-dir] [--runtime-dir]
-               [--paths] [--json] [--debug]
-               [subcommand]
-
-Jupyter: Interactive Computing
-
-positional arguments:
-  subcommand     the subcommand to launch
-
-options:
-  -h, --help     show this help message and exit
-  --version      show the versions of core jupyter packages and exit
-  --config-dir   show Jupyter config dir
-  --data-dir     show Jupyter data dir
-  --runtime-dir  show Jupyter runtime dir
-  --paths        show all Jupyter paths. Add --json for machine-readable
-                 format.
-  --json         output paths as machine-readable json
-  --debug        output debug information about paths
-
-Available subcommands: dejavu events execute kernel kernelspec lab
-labextension labhub migrate nbconvert notebook run server troubleshoot trust
-
-Jupyter command `jupyter-nbextension` not found.
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -905,43 +789,25 @@ Jupyter command `jupyter-nbextension` not found.
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">from</span> <span class="nn">ydata_profiling</span> <span class="kn">import</span> <span class="n">ProfileReport</span>
-
-<span class="c1"># Load the dataset</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data_from_step_2.csv&quot;</span><span class="p">)</span>  <span class="c1"># Replace with the correct file name</span>
-
-<span class="c1"># Display the first few rows of the dataset</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data_from_step_2.csv&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;First few rows of the dataset:&quot;</span><span class="p">)</span>
 <span class="n">display</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">())</span>
-
-<span class="c1"># Step 1: Convert the target variable (Air_Quality) to numeric codes</span>
-<span class="c1"># Map categorical values in the &#39;Air_Quality&#39; column to numerical values</span>
 <span class="n">air_quality_mapping</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Good&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;Moderate&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;Poor&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s2">&quot;Hazardous&quot;</span><span class="p">:</span> <span class="mi">3</span><span class="p">}</span>
 <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Air_Quality&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Air_Quality&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="n">air_quality_mapping</span><span class="p">)</span>
-
-<span class="c1"># Step 2: Generate and display the ydata profiling report in the notebook</span>
 <span class="n">profile</span> <span class="o">=</span> <span class="n">ProfileReport</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Data Profiling Report&quot;</span><span class="p">,</span> <span class="n">explorative</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">profile</span><span class="o">.</span><span class="n">to_widgets</span><span class="p">()</span>  <span class="c1"># Display the profiling report directly in the notebook</span>
-
-<span class="c1"># Step 3: Check for missing values</span>
+<span class="n">profile</span><span class="o">.</span><span class="n">to_widgets</span><span class="p">()</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Missing Values in Each Column:&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
-
-<span class="c1"># Step 4: Generate and visualize the correlation matrix</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
 <span class="n">correlation_matrix</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">correlation_matrix</span><span class="p">,</span> <span class="n">annot</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="s2">&quot;coolwarm&quot;</span><span class="p">,</span> <span class="n">fmt</span><span class="o">=</span><span class="s2">&quot;.2f&quot;</span><span class="p">,</span> <span class="n">linewidths</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Correlation Matrix Heatmap&quot;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s2">&quot;correlation_matrix.png&quot;</span><span class="p">)</span>
 <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-
-<span class="c1"># Step 5: Observations</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Observations:&quot;</span><span class="p">)</span>
-<span class="c1"># Example Observations</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;- Check for high correlations (e.g., PM2.5 and PM10).&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;- Identify missing values in certain columns.&quot;</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;- Check if distributions of features like CO or SO2 are skewed or capped.&quot;</span><span class="p">)</span>
-
-<span class="c1"># Step 6: Create a list of data cleanup tasks</span>
 <span class="n">cleanup_tasks</span> <span class="o">=</span> <span class="p">[</span>
     <span class="s2">&quot;Handle missing values in columns with non-zero missing counts.&quot;</span><span class="p">,</span>
     <span class="s2">&quot;Normalize features with high variance.&quot;</span><span class="p">,</span>
@@ -1096,122 +962,6 @@ Data Cleanup Tasks:
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: dagshub in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (0.4.0)
-Requirement already satisfied: mlflow in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (2.19.0)
-Requirement already satisfied: PyYAML&gt;=5 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (6.0.2)
-Requirement already satisfied: appdirs&gt;=1.4.4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (1.4.4)
-Requirement already satisfied: click&gt;=8.0.4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (8.1.7)
-Requirement already satisfied: httpx&gt;=0.23.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (0.27.2)
-Requirement already satisfied: GitPython&gt;=3.1.29 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (3.1.43)
-Requirement already satisfied: rich&gt;=13.1.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (13.9.4)
-Collecting dacite~=1.6.0 (from dagshub)
-  Using cached dacite-1.6.0-py3-none-any.whl.metadata (14 kB)
-Requirement already satisfied: tenacity&gt;=8.2.2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (9.0.0)
-Requirement already satisfied: gql[requests] in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (3.5.0)
-Requirement already satisfied: dataclasses-json in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (0.6.7)
-Requirement already satisfied: pandas in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (2.2.3)
-Requirement already satisfied: treelib&gt;=1.6.4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (1.7.0)
-Requirement already satisfied: pathvalidate&gt;=3.0.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (3.2.1)
-Requirement already satisfied: python-dateutil in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (2.9.0.post0)
-Requirement already satisfied: boto3 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (1.35.84)
-Requirement already satisfied: dagshub-annotation-converter&gt;=0.1.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub) (0.1.2)
-Requirement already satisfied: mlflow-skinny==2.19.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (2.19.0)
-Requirement already satisfied: Flask&lt;4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (3.1.0)
-Requirement already satisfied: Jinja2&lt;4,&gt;=3.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (3.1.4)
-Requirement already satisfied: alembic!=1.10.0,&lt;2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (1.14.0)
-Requirement already satisfied: docker&lt;8,&gt;=4.0.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (7.1.0)
-Requirement already satisfied: graphene&lt;4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (3.4.3)
-Requirement already satisfied: markdown&lt;4,&gt;=3.3 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (3.7)
-Requirement already satisfied: matplotlib&lt;4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (3.9.2)
-Requirement already satisfied: numpy&lt;3 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (2.0.2)
-Requirement already satisfied: pyarrow&lt;19,&gt;=4.0.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (18.1.0)
-Requirement already satisfied: scikit-learn&lt;2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (1.5.2)
-Requirement already satisfied: scipy&lt;2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (1.13.1)
-Requirement already satisfied: sqlalchemy&lt;3,&gt;=1.4.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (2.0.36)
-Requirement already satisfied: waitress&lt;4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow) (3.0.2)
-Requirement already satisfied: cachetools&lt;6,&gt;=5.0.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow-skinny==2.19.0-&gt;mlflow) (5.5.0)
-Requirement already satisfied: cloudpickle&lt;4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow-skinny==2.19.0-&gt;mlflow) (3.1.0)
-Requirement already satisfied: databricks-sdk&lt;1,&gt;=0.20.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow-skinny==2.19.0-&gt;mlflow) (0.39.0)
-Requirement already satisfied: importlib_metadata!=4.7.0,&lt;9,&gt;=3.7.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow-skinny==2.19.0-&gt;mlflow) (8.5.0)
-Requirement already satisfied: opentelemetry-api&lt;3,&gt;=1.9.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow-skinny==2.19.0-&gt;mlflow) (1.29.0)
-Requirement already satisfied: opentelemetry-sdk&lt;3,&gt;=1.9.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow-skinny==2.19.0-&gt;mlflow) (1.29.0)
-Requirement already satisfied: packaging&lt;25 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow-skinny==2.19.0-&gt;mlflow) (24.1)
-Requirement already satisfied: protobuf&lt;6,&gt;=3.12.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow-skinny==2.19.0-&gt;mlflow) (5.29.2)
-Requirement already satisfied: requests&lt;3,&gt;=2.17.3 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow-skinny==2.19.0-&gt;mlflow) (2.32.3)
-Requirement already satisfied: sqlparse&lt;1,&gt;=0.4.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from mlflow-skinny==2.19.0-&gt;mlflow) (0.5.3)
-Requirement already satisfied: Mako in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from alembic!=1.10.0,&lt;2-&gt;mlflow) (1.3.8)
-Requirement already satisfied: typing-extensions&gt;=4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from alembic!=1.10.0,&lt;2-&gt;mlflow) (4.12.2)
-Requirement already satisfied: colorama in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from click&gt;=8.0.4-&gt;dagshub) (0.4.6)
-Requirement already satisfied: lxml in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub-annotation-converter&gt;=0.1.0-&gt;dagshub) (5.3.0)
-Requirement already satisfied: pillow in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub-annotation-converter&gt;=0.1.0-&gt;dagshub) (10.4.0)
-Requirement already satisfied: pydantic&gt;=2.0.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dagshub-annotation-converter&gt;=0.1.0-&gt;dagshub) (2.10.4)
-Requirement already satisfied: pywin32&gt;=304 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from docker&lt;8,&gt;=4.0.0-&gt;mlflow) (306)
-Requirement already satisfied: urllib3&gt;=1.26.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from docker&lt;8,&gt;=4.0.0-&gt;mlflow) (2.2.2)
-Requirement already satisfied: Werkzeug&gt;=3.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from Flask&lt;4-&gt;mlflow) (3.1.3)
-Requirement already satisfied: itsdangerous&gt;=2.2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from Flask&lt;4-&gt;mlflow) (2.2.0)
-Requirement already satisfied: blinker&gt;=1.9 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from Flask&lt;4-&gt;mlflow) (1.9.0)
-Requirement already satisfied: gitdb&lt;5,&gt;=4.0.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from GitPython&gt;=3.1.29-&gt;dagshub) (4.0.11)
-Requirement already satisfied: graphql-core&lt;3.3,&gt;=3.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from graphene&lt;4-&gt;mlflow) (3.2.5)
-Requirement already satisfied: graphql-relay&lt;3.3,&gt;=3.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from graphene&lt;4-&gt;mlflow) (3.2.0)
-Requirement already satisfied: anyio in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from httpx&gt;=0.23.0-&gt;dagshub) (4.4.0)
-Requirement already satisfied: certifi in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from httpx&gt;=0.23.0-&gt;dagshub) (2024.8.30)
-Requirement already satisfied: httpcore==1.* in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from httpx&gt;=0.23.0-&gt;dagshub) (1.0.5)
-Requirement already satisfied: idna in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from httpx&gt;=0.23.0-&gt;dagshub) (3.8)
-Requirement already satisfied: sniffio in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from httpx&gt;=0.23.0-&gt;dagshub) (1.3.1)
-Requirement already satisfied: h11&lt;0.15,&gt;=0.13 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from httpcore==1.*-&gt;httpx&gt;=0.23.0-&gt;dagshub) (0.14.0)
-Requirement already satisfied: MarkupSafe&gt;=2.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from Jinja2&lt;4,&gt;=3.0-&gt;mlflow) (2.1.5)
-Requirement already satisfied: contourpy&gt;=1.0.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;4-&gt;mlflow) (1.3.0)
-Requirement already satisfied: cycler&gt;=0.10 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;4-&gt;mlflow) (0.12.1)
-Requirement already satisfied: fonttools&gt;=4.22.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;4-&gt;mlflow) (4.54.1)
-Requirement already satisfied: kiwisolver&gt;=1.3.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;4-&gt;mlflow) (1.4.7)
-Requirement already satisfied: pyparsing&gt;=2.3.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from matplotlib&lt;4-&gt;mlflow) (3.1.4)
-Requirement already satisfied: pytz&gt;=2020.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pandas-&gt;dagshub) (2024.2)
-Requirement already satisfied: tzdata&gt;=2022.7 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pandas-&gt;dagshub) (2024.2)
-Requirement already satisfied: six&gt;=1.5 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from python-dateutil-&gt;dagshub) (1.16.0)
-Requirement already satisfied: markdown-it-py&gt;=2.2.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from rich&gt;=13.1.0-&gt;dagshub) (3.0.0)
-Requirement already satisfied: pygments&lt;3.0.0,&gt;=2.13.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from rich&gt;=13.1.0-&gt;dagshub) (2.18.0)
-Requirement already satisfied: joblib&gt;=1.2.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from scikit-learn&lt;2-&gt;mlflow) (1.4.2)
-Requirement already satisfied: threadpoolctl&gt;=3.1.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from scikit-learn&lt;2-&gt;mlflow) (3.5.0)
-Requirement already satisfied: greenlet!=0.4.17 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from sqlalchemy&lt;3,&gt;=1.4.0-&gt;mlflow) (3.1.1)
-Requirement already satisfied: botocore&lt;1.36.0,&gt;=1.35.84 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from boto3-&gt;dagshub) (1.35.84)
-Requirement already satisfied: jmespath&lt;2.0.0,&gt;=0.7.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from boto3-&gt;dagshub) (1.0.1)
-Requirement already satisfied: s3transfer&lt;0.11.0,&gt;=0.10.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from boto3-&gt;dagshub) (0.10.4)
-Requirement already satisfied: marshmallow&lt;4.0.0,&gt;=3.18.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dataclasses-json-&gt;dagshub) (3.23.1)
-Requirement already satisfied: typing-inspect&lt;1,&gt;=0.4.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from dataclasses-json-&gt;dagshub) (0.9.0)
-Requirement already satisfied: yarl&lt;2.0,&gt;=1.6 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from gql[requests]-&gt;dagshub) (1.18.3)
-Requirement already satisfied: backoff&lt;3.0,&gt;=1.11.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from gql[requests]-&gt;dagshub) (2.2.1)
-Requirement already satisfied: requests-toolbelt&lt;2,&gt;=1.0.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from gql[requests]-&gt;dagshub) (1.0.0)
-Requirement already satisfied: google-auth~=2.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from databricks-sdk&lt;1,&gt;=0.20.0-&gt;mlflow-skinny==2.19.0-&gt;mlflow) (2.37.0)
-Requirement already satisfied: smmap&lt;6,&gt;=3.0.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from gitdb&lt;5,&gt;=4.0.1-&gt;GitPython&gt;=3.1.29-&gt;dagshub) (5.0.1)
-Requirement already satisfied: zipp&gt;=3.20 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from importlib_metadata!=4.7.0,&lt;9,&gt;=3.7.0-&gt;mlflow-skinny==2.19.0-&gt;mlflow) (3.21.0)
-Requirement already satisfied: mdurl~=0.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from markdown-it-py&gt;=2.2.0-&gt;rich&gt;=13.1.0-&gt;dagshub) (0.1.2)
-Requirement already satisfied: deprecated&gt;=1.2.6 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from opentelemetry-api&lt;3,&gt;=1.9.0-&gt;mlflow-skinny==2.19.0-&gt;mlflow) (1.2.15)
-Requirement already satisfied: opentelemetry-semantic-conventions==0.50b0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from opentelemetry-sdk&lt;3,&gt;=1.9.0-&gt;mlflow-skinny==2.19.0-&gt;mlflow) (0.50b0)
-Requirement already satisfied: annotated-types&gt;=0.6.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pydantic&gt;=2.0.0-&gt;dagshub-annotation-converter&gt;=0.1.0-&gt;dagshub) (0.7.0)
-Requirement already satisfied: pydantic-core==2.27.2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pydantic&gt;=2.0.0-&gt;dagshub-annotation-converter&gt;=0.1.0-&gt;dagshub) (2.27.2)
-Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from requests&lt;3,&gt;=2.17.3-&gt;mlflow-skinny==2.19.0-&gt;mlflow) (3.3.2)
-Requirement already satisfied: mypy-extensions&gt;=0.3.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from typing-inspect&lt;1,&gt;=0.4.0-&gt;dataclasses-json-&gt;dagshub) (1.0.0)
-Requirement already satisfied: multidict&gt;=4.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from yarl&lt;2.0,&gt;=1.6-&gt;gql[requests]-&gt;dagshub) (6.1.0)
-Requirement already satisfied: propcache&gt;=0.2.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from yarl&lt;2.0,&gt;=1.6-&gt;gql[requests]-&gt;dagshub) (0.2.1)
-Requirement already satisfied: wrapt&lt;2,&gt;=1.10 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from deprecated&gt;=1.2.6-&gt;opentelemetry-api&lt;3,&gt;=1.9.0-&gt;mlflow-skinny==2.19.0-&gt;mlflow) (1.17.0)
-Requirement already satisfied: pyasn1-modules&gt;=0.2.1 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from google-auth~=2.0-&gt;databricks-sdk&lt;1,&gt;=0.20.0-&gt;mlflow-skinny==2.19.0-&gt;mlflow) (0.4.1)
-Requirement already satisfied: rsa&lt;5,&gt;=3.1.4 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from google-auth~=2.0-&gt;databricks-sdk&lt;1,&gt;=0.20.0-&gt;mlflow-skinny==2.19.0-&gt;mlflow) (4.9)
-Requirement already satisfied: pyasn1&lt;0.7.0,&gt;=0.4.6 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from pyasn1-modules&gt;=0.2.1-&gt;google-auth~=2.0-&gt;databricks-sdk&lt;1,&gt;=0.20.0-&gt;mlflow-skinny==2.19.0-&gt;mlflow) (0.6.1)
-Using cached dacite-1.6.0-py3-none-any.whl (12 kB)
-Installing collected packages: dacite
-  Attempting uninstall: dacite
-    Found existing installation: dacite 1.8.1
-    Uninstalling dacite-1.8.1:
-      Successfully uninstalled dacite-1.8.1
-Successfully installed dacite-1.6.0
-</pre></div>
-</div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>ERROR: pip&#39;s dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
-ydata-profiling 4.12.1 requires dacite&gt;=1.8, but you have dacite 1.6.0 which is incompatible.
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -1231,7 +981,8 @@ ydata-profiling 4.12.1 requires dacite&gt;=1.8, but you have dacite 1.6.0 which 
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#step-5</span>
+<span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">from</span> <span class="nn">sklearn.compose</span> <span class="kn">import</span> <span class="n">ColumnTransformer</span>
@@ -1242,22 +993,16 @@ ydata-profiling 4.12.1 requires dacite&gt;=1.8, but you have dacite 1.6.0 which 
 <span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">f1_score</span><span class="p">,</span> <span class="n">confusion_matrix</span><span class="p">,</span> <span class="n">make_scorer</span>
 <span class="kn">import</span> <span class="nn">mlflow</span>
 <span class="kn">import</span> <span class="nn">mlflow.sklearn</span>
-
-<span class="c1"># Load the dataset from Step-2 output</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data_from_step_2.csv&quot;</span><span class="p">)</span>  <span class="c1"># Replace with your actual file name</span>
-
-<span class="c1"># Separate features and target</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Air_Quality&quot;</span><span class="p">])</span>  <span class="c1"># Replace with your target variable name if different</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;data_from_step_2.csv&quot;</span><span class="p">)</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;Air_Quality&quot;</span><span class="p">])</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s2">&quot;Air_Quality&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">map</span><span class="p">({</span><span class="s2">&quot;Good&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;Moderate&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;Poor&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s2">&quot;Hazardous&quot;</span><span class="p">:</span> <span class="mi">3</span><span class="p">})</span>
-
-<span class="c1"># Define preprocessing pipeline</span>
 <span class="n">numerical_features</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">select_dtypes</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;float64&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">columns</span>
 <span class="n">categorical_features</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">select_dtypes</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;object&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">columns</span>
 
 <span class="n">numerical_pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
     <span class="p">(</span><span class="s2">&quot;scaler&quot;</span><span class="p">,</span> <span class="n">StandardScaler</span><span class="p">()),</span>
     <span class="p">(</span><span class="s2">&quot;minmax&quot;</span><span class="p">,</span> <span class="n">MinMaxScaler</span><span class="p">()),</span>
-    <span class="p">(</span><span class="s2">&quot;log&quot;</span><span class="p">,</span> <span class="n">FunctionTransformer</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log1p</span><span class="p">,</span> <span class="n">validate</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>  <span class="c1"># Log transformation</span>
+    <span class="p">(</span><span class="s2">&quot;log&quot;</span><span class="p">,</span> <span class="n">FunctionTransformer</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">log1p</span><span class="p">,</span> <span class="n">validate</span><span class="o">=</span><span class="kc">True</span><span class="p">))</span>
 <span class="p">])</span>
 
 <span class="n">categorical_pipeline</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
@@ -1344,14 +1089,6 @@ ydata-profiling 4.12.1 requires dacite&gt;=1.8, but you have dacite 1.6.0 which 
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">xgboost</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: xgboost in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (2.1.3)
-Requirement already satisfied: numpy in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from xgboost) (2.0.2)
-Requirement already satisfied: scipy in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from xgboost) (1.13.1)
-Note: you may need to restart the kernel to use updated packages.
 </pre></div>
 </div>
 </div>
@@ -1456,28 +1193,6 @@ Note: you may need to restart the kernel to use updated packages.
             <span class="n">signature</span><span class="o">=</span><span class="n">signature</span>
         <span class="p">)</span>
         <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Experiment for </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s2"> logged in MLflow with signature and input example.&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "1a343c61d7cd4817b63ba0cc4bccb59f", "version_major": 2, "version_minor": 0}</script><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Experiment for LogisticRegression logged in MLflow with signature and input example.
-🏃 View run LogisticRegression at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/2/runs/ab1998fb6172499bb0d193d6c88c572e
-🧪 View experiment at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/2
-</pre></div>
-</div>
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "eea98e032d5143099a827e62649db60a", "version_major": 2, "version_minor": 0}</script><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Experiment for RidgeClassifier logged in MLflow with signature and input example.
-🏃 View run RidgeClassifier at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/2/runs/d667b7ef095648848854a837869b8b60
-🧪 View experiment at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/2
-</pre></div>
-</div>
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "57233767da344386af050a11ce0d07f0", "version_major": 2, "version_minor": 0}</script><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Experiment for RandomForestClassifier logged in MLflow with signature and input example.
-🏃 View run RandomForestClassifier at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/2/runs/6031bbb4b191493a8c6db10c3d4cca3f
-🧪 View experiment at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/2
-</pre></div>
-</div>
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "db175b9125464c5293f0b5983797a185", "version_major": 2, "version_minor": 0}</script><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Experiment for XGBClassifier logged in MLflow with signature and input example.
-🏃 View run XGBClassifier at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/2/runs/6ffda4e422954c03b7a1a34418876950
-🧪 View experiment at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/2
 </pre></div>
 </div>
 </div>
@@ -1594,16 +1309,6 @@ Note: you may need to restart the kernel to use updated packages.
         <span class="n">signature</span><span class="o">=</span><span class="n">signature</span>
     <span class="p">)</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Experiment #3 logged in MLflow with feature engineering.&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2024/12/19 17:33:55 INFO mlflow.tracking.fluent: Experiment with name &#39;experiment_3_feature_engineering&#39; does not exist. Creating a new experiment.
-</pre></div>
-</div>
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "c6e0d87ca4e940949e74ae18512f8e61", "version_major": 2, "version_minor": 0}</script><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Experiment #3 logged in MLflow with feature engineering.
-🏃 View run stylish-snake-431 at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/3/runs/5d9da453bd1f4500b912d1fe0dbdc6f7
-🧪 View experiment at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/3
 </pre></div>
 </div>
 </div>
@@ -1735,20 +1440,11 @@ Note: you may need to restart the kernel to use updated packages.
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>2024/12/19 17:46:45 INFO mlflow.tracking.fluent: Experiment with name &#39;experiment_4_feature_selection&#39; does not exist. Creating a new experiment.
-</pre></div>
-</div>
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "016c79dd879945a4a1b4dfce098431a4", "version_major": 2, "version_minor": 0}</script><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Experiment #4 logged in MLflow with feature selection steps.
-🏃 View run zealous-gnu-171 at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/4/runs/0b21ea94d31c47f9bc33e7af7ec8ae65
-🧪 View experiment at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/4
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#Experiment-5</span>
+<span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -1983,31 +1679,10 @@ Note: you may need to restart the kernel to use updated packages.
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "1cb07456914d4e20a24ba1e0cc11cc9e", "version_major": 2, "version_minor": 0}</script><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Experiment #6 (Custom) logged in MLflow.
-🏃 View run gregarious-frog-959 at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/7/runs/0db3fe7b1a274431a51e981bc695ccfc
-🧪 View experiment at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/7
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">lightgbm</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Collecting lightgbm
-  Downloading lightgbm-4.5.0-py3-none-win_amd64.whl.metadata (17 kB)
-Requirement already satisfied: numpy&gt;=1.17.0 in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from lightgbm) (2.0.2)
-Requirement already satisfied: scipy in c:\users\saket\appdata\local\programs\python\python312\lib\site-packages (from lightgbm) (1.13.1)
-Downloading lightgbm-4.5.0-py3-none-win_amd64.whl (1.4 MB)
-   ---------------------------------------- 0.0/1.4 MB ? eta -:--:--
-   ---------------------------------------- 1.4/1.4 MB 15.2 MB/s eta 0:00:00
-Installing collected packages: lightgbm
-Successfully installed lightgbm-4.5.0
-Note: you may need to restart the kernel to use updated packages.
 </pre></div>
 </div>
 </div>
@@ -2130,114 +1805,6 @@ Note: you may need to restart the kernel to use updated packages.
     <span class="n">mlflow</span><span class="o">.</span><span class="n">log_param</span><span class="p">(</span><span class="s2">&quot;selected_features_k&quot;</span><span class="p">,</span> <span class="n">K</span><span class="p">)</span>
 
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Experiment #7 (Another Custom Experiment) logged in MLflow with mutual info feature selection and LGBMClassifier.&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000149 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 2191
-[LightGBM] [Info] Number of data points in the train set: 4500, number of used features: 9
-[LightGBM] [Info] Start training from score -0.916291
-[LightGBM] [Info] Start training from score -1.203973
-[LightGBM] [Info] Start training from score -1.609438
-[LightGBM] [Info] Start training from score -2.302585
-[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000254 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 2191
-[LightGBM] [Info] Number of data points in the train set: 4500, number of used features: 9
-[LightGBM] [Info] Start training from score -0.916291
-[LightGBM] [Info] Start training from score -1.203973
-[LightGBM] [Info] Start training from score -1.609438
-[LightGBM] [Info] Start training from score -2.302585
-[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000142 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 2194
-[LightGBM] [Info] Number of data points in the train set: 4500, number of used features: 9
-[LightGBM] [Info] Start training from score -0.916291
-[LightGBM] [Info] Start training from score -1.203973
-[LightGBM] [Info] Start training from score -1.609438
-[LightGBM] [Info] Start training from score -2.302585
-[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000143 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 2195
-[LightGBM] [Info] Number of data points in the train set: 4500, number of used features: 9
-[LightGBM] [Info] Start training from score -0.916291
-[LightGBM] [Info] Start training from score -1.203973
-[LightGBM] [Info] Start training from score -1.609438
-[LightGBM] [Info] Start training from score -2.302585
-[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000274 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 2195
-[LightGBM] [Info] Number of data points in the train set: 4500, number of used features: 9
-[LightGBM] [Info] Start training from score -0.916291
-[LightGBM] [Info] Start training from score -1.203973
-[LightGBM] [Info] Start training from score -1.609438
-[LightGBM] [Info] Start training from score -2.302585
-[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000128 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 2190
-[LightGBM] [Info] Number of data points in the train set: 4500, number of used features: 9
-[LightGBM] [Info] Start training from score -0.916291
-[LightGBM] [Info] Start training from score -1.203973
-[LightGBM] [Info] Start training from score -1.609438
-[LightGBM] [Info] Start training from score -2.302585
-[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000140 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 2190
-[LightGBM] [Info] Number of data points in the train set: 4500, number of used features: 9
-[LightGBM] [Info] Start training from score -0.916291
-[LightGBM] [Info] Start training from score -1.203973
-[LightGBM] [Info] Start training from score -1.609438
-[LightGBM] [Info] Start training from score -2.302585
-[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000261 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 2194
-[LightGBM] [Info] Number of data points in the train set: 4500, number of used features: 9
-[LightGBM] [Info] Start training from score -0.916291
-[LightGBM] [Info] Start training from score -1.203973
-[LightGBM] [Info] Start training from score -1.609438
-[LightGBM] [Info] Start training from score -2.302585
-[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000368 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 2192
-[LightGBM] [Info] Number of data points in the train set: 4500, number of used features: 9
-[LightGBM] [Info] Start training from score -0.916291
-[LightGBM] [Info] Start training from score -1.203973
-[LightGBM] [Info] Start training from score -1.609438
-[LightGBM] [Info] Start training from score -2.302585
-[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000157 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 2193
-[LightGBM] [Info] Number of data points in the train set: 4500, number of used features: 9
-[LightGBM] [Info] Start training from score -0.916291
-[LightGBM] [Info] Start training from score -1.203973
-[LightGBM] [Info] Start training from score -1.609438
-[LightGBM] [Info] Start training from score -2.302585
-[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
-[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000144 seconds.
-You can set `force_col_wise=true` to remove the overhead.
-[LightGBM] [Info] Total Bins 2195
-[LightGBM] [Info] Number of data points in the train set: 5000, number of used features: 9
-[LightGBM] [Info] Start training from score -0.916291
-[LightGBM] [Info] Start training from score -1.203973
-[LightGBM] [Info] Start training from score -1.609438
-[LightGBM] [Info] Start training from score -2.302585
-[LightGBM] [Warning] No further splits with positive gain, best gain: -inf
-</pre></div>
-</div>
-<script type="application/vnd.jupyter.widget-view+json">{"model_id": "a91ced2cc2df42eb9af157594d55743f", "version_major": 2, "version_minor": 0}</script><div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Experiment #7 (Another Custom Experiment) logged in MLflow with mutual info feature selection and LGBMClassifier.
-🏃 View run colorful-horse-172 at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/8/runs/e9884219290b429d8eea7dcc0b707de2
-🧪 View experiment at: https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction.mlflow/#/experiments/8
 </pre></div>
 </div>
 </div>
@@ -2473,12 +2040,12 @@ Best model by f1_micro_mean: Experiment_6_custom
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="intro.html"
+       href="summary.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Saket Medhalavalasa</p>
+        <p class="prev-next-title">Summary</p>
       </div>
     </a>
 </div>
