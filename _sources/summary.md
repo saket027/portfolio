@@ -137,9 +137,5 @@ Ultimately, Step 8 cements the entire modeling phase, producing a single artifac
 
 Step 9 completes the journey by **deploying** your chosen best model as a production-ready service. You begin by writing a FastAPI application (`main.py`) that loads your locally saved `final_model.joblib`. The app defines a `/predict` endpoint, which expects JSON data matching your feature schema. When a request arrives, the code transforms the input into a DataFrame, calls `model.predict()`, and returns the predicted class label (e.g., Good, Moderate, Poor, Hazardous). This effectively turns your pipeline—complete with scaling, encoding, or advanced transformations—into a REST API anyone can query.
 
-To ensure consistent deployment, you then create a Dockerfile specifying a Python 3.9 environment, installing requirements for FastAPI and scikit-learn. You copy in `final_model.joblib` and `main.py`, and set `uvicorn main:app` as the default command. Testing locally (`docker run -p 8000:8000 ...`) confirms your container runs identically anywhere Docker is available. Pushing the image to Docker Hub makes it accessible for a cloud environment like AWS ECS, Google Cloud Run, or Azure Container Instances.  
-
-Once deployed, your service obtains a public endpoint, allowing clients to `POST /predict` from anywhere. Optionally, you might build a **Streamlit** app that calls the same endpoint, providing a user-friendly interface with sliders and dropdowns. This final step underscores the end-to-end philosophy: starting with raw data, culminating in a fully operational ML service that’s versioned, containerized, and easily scaled in the cloud. By doing so, your air quality prediction solution transcends offline experimentation into real, actionable usage.
-
 ```{tableofcontents}
 ```
