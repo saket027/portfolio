@@ -5,4 +5,4 @@ format: jb-book
 root: intro
 chapters:
 - file: summary
-- file: notebooks
+- file: AirQuality Prediction
