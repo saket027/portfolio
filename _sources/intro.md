@@ -1,5 +1,3 @@
-# Resume
-
 # Saket Medhalavalasa
 
 **Email:** [saketm97@gmail.com](mailto:saketm97@gmail.com)  
@@ -60,7 +58,8 @@ KL University, Vijayawada, India
 - Developed a Streamlit app connecting to the pipeline for real-time air quality predictions.
 
 #### **Links:**
-- **Streamlit App:** [Air Quality Prediction](https://airqualityapp-czxh5jumzvuy2cn5obtcag.streamlit.app/)
+- **Streamlit App:** <a href="https://airqualityapp-czxh5jumzvuy2cn5obtcag.streamlit.app/" target="_blank">Air Quality Prediction</a>
+<!-- - [Air Quality Prediction](https://airqualityapp-czxh5jumzvuy2cn5obtcag.streamlit.app/) -->
 - **DagsHub:** [Experiments](https://dagshub.com/saket027/EAS_503_Updated_Air_Quality_Prediction/experiments)
 - **DockerHub:** [Docker Image](https://hub.docker.com/repository/docker/saket027/airquality_app/general)
 - **Final Deployed Model:** GradientBoostingClassifier
