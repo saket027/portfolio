@@ -125,3 +125,7 @@ KL University, Vijayawada, India
 
 ```{tableofcontents}
 ```
+.. toctree::
+   :maxdepth: 2
+
+   notebooks
