@@ -1,3 +1,7 @@
+# Summary
+This is the summary of the project.
+
+
 # Detailed Summaries for Each Step and Experiment
 
 Below are **detailed summaries** for **Steps 1–9** and **Experiments 1–7** in the **Air Quality Prediction Project**. Each summary is  providing insight into the goals, methods, and outcomes of each phase.
@@ -139,7 +143,3 @@ Once deployed, your service obtains a public endpoint, allowing clients to `POST
 
 ```{tableofcontents}
 ```
-.. toctree::
-   :maxdepth: 2
-
-   AirQuality Prediction
