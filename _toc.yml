@@ -6,3 +6,4 @@ root: intro
 chapters:
 - file: summary
 - file: AirQuality Prediction
+- file: Video presentation
